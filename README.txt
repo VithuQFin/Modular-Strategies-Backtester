@@ -6,7 +6,7 @@ This project is a modular backtesting engine for evaluating trading strategies s
 
 ## 📁 Project Structure
 
-```plaintext
+```bash
 .
 ├── backtester/ # Core backtest engine and metrics
 │ ├── engine.py # Executes the trading logic
