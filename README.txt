@@ -1,8 +1,8 @@
-# 📈 Simple Modular Strategy Backtester
+# Simple Modular Strategy Backtester
 
 This project is a modular backtesting engine for evaluating trading strategies such as **Moving Average Crossover** and **Mean Reversion**. It allows users to simulate trades, measure performance, and generate detailed analytics using historical data.
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 .
@@ -27,14 +27,15 @@ This project is a modular backtesting engine for evaluating trading strategies s
 ├── utils/ # (Reserved for future utilities)
 ├── main.py # CLI execution of strategies
 └── Home.py # [Ignored] Streamlit landing page
-
 ```
-
-> 🔒 `pages/` and `Home.py` are ignored via `.gitignore` as they are specific to the Streamlit frontend.
 
 ---
 
-## 🚀 Features
+>`pages/` and `Home.py` are ignored via `.gitignore` as they are specific to the Streamlit frontend.
+
+---
+
+## Features
 
 - Clean, modular Python architecture
 - Built-in strategies:
@@ -50,33 +51,31 @@ This project is a modular backtesting engine for evaluating trading strategies s
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install dependencies:
 
-```bash
+```plaintext
 pip install -r requirements.txt
+```
 
 Or manually install:
 
+```plaintext
 pip install pandas numpy matplotlib yfinance plotly streamlit
+```
 
 How to Use
 1. Run the CLI Backtest
 
+```plaintext
 python main.py
+```
 
 This will execute the predefined strategies and output performance stats and plots.
-2. Launch Streamlit Dashboard
 
-streamlit run Home.py
-
-This opens the full interactive interface with parameter sliders, charts, and tables.
-
-    Dashboard requires internet access to fetch data from Yahoo Finance.
-
-🧠 Strategy Overview
-📉 Mean Reversion
+Strategy Overview
+Mean Reversion
 
     Based on z-score of price relative to a moving average
 
@@ -84,13 +83,13 @@ This opens the full interactive interface with parameter sliders, charts, and ta
 
     Sell when price is significantly above average (overvalued)
 
-📈 Moving Average Crossover
+Moving Average Crossover
 
     Long when short MA > long MA
 
     Exit when short MA < long MA
 
-📊 Sample Output
+Sample Output
 
     Orders executed: 📋 BUY/SELL logs
 
@@ -99,23 +98,3 @@ This opens the full interactive interface with parameter sliders, charts, and ta
     Strategy vs Market return: 📈
 
     Risk metrics: ✅ Sharpe, volatility, drawdown
-
-📌 Coming Next
-
-    ✅ Support for multiple tickers
-
-    🔄 Weekly/monthly rebalancing
-
-    🔍 Walk-forward and cross-validation
-
-    🧠 Custom strategy integration
-
-📄 License
-
-This project is under the MIT License. You are free to use, modify, and distribute with attribution.
-👨‍💻 Author
-
-Developed by [Your Name]
-M1 Quantitative Finance | ESILV
-GitHub: [your-username]
-LinkedIn: [your-link]
