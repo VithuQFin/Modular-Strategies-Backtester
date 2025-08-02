@@ -6,7 +6,7 @@ This project is a modular backtesting engine for evaluating trading strategies s
 
 ## 📁 Project Structure
 
-```bash
+```plaintext
 .
 ├── backtester/ # Core backtest engine and metrics
 │ ├── engine.py # Executes the trading logic
@@ -29,6 +29,7 @@ This project is a modular backtesting engine for evaluating trading strategies s
 ├── utils/ # (Reserved for future utilities)
 ├── main.py # CLI execution of strategies
 └── Home.py # [Ignored] Streamlit landing page
+
 ```
 
 > 🔒 `pages/` and `Home.py` are ignored via `.gitignore` as they are specific to the Streamlit frontend.
