@@ -2,8 +2,6 @@
 
 This project is a modular backtesting engine for evaluating trading strategies such as **Moving Average Crossover** and **Mean Reversion**. It allows users to simulate trades, measure performance, and generate detailed analytics using historical data.
 
----
-
 ## 📁 Project Structure
 
 ```plaintext
