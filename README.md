@@ -74,7 +74,9 @@ python main.py
 
 This will execute the predefined strategies and output performance stats and plots.
 
-Strategy Overview
+---
+
+## Strategy Overview
 
 Mean Reversion
 
