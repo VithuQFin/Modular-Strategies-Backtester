@@ -7,7 +7,6 @@ Thumbs.db
 
 # Ignore Streamlit specific files
 pages/
-Home.py
 
 # Ignore data folders if large
 data/raw/
