@@ -12,6 +12,7 @@ sidebar.py
 
 # Ignore data folders if large
 data/raw/
+data/clean/
 
 # Ignore Python cache
 __pycache__/
